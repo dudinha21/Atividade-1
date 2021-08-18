@@ -1,3 +1,3 @@
 # Calculadora API (GQSO - IF)
 
-TODO (Maria Eduarda - 914) : Preencher a descrição das funcionalidades do projeto.
+O projeto alvo tem como finalidade a criação e a implementação de uma calculadora, com suas funcionalidades, em linguagem de programação.
