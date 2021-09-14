@@ -5,7 +5,7 @@ public class Programa_soma {
    
     public static void main(String[] args) 
     {
-       int x = 0 , y = 0, soma;
+       int x = 0 , y = 0, z = 0, soma;
       
        Scanner s = new Scanner(System.in);
        
@@ -15,7 +15,10 @@ public class Programa_soma {
        System.out.println("Introduza o 2 numero");
        y = s.nextInt();
              
-       soma = x+y;
+       System.out.println("Introduza o 3 numero");
+       y = s.nextInt();
+
+       soma = x+y+z;
        
        System.out.println(" A soma é: " + soma);
              
