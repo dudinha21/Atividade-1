@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+public class PrincipalCalculadora{
+    public static void main( String args[] ){
+        int algx, algy;
+        String nX, nY;
+        nX = JOptionPane.showInputDialog( null, "Digite o primeiro número:", 
+        "Primeiro número", JOptionPane.QUESTION_MESSAGE );
+        algx = Integer.parseInt( nX );
+        sY = JOptionPane.showInputDialog( null, "Digite o segundo número:", 
+        "Segundo número", JOptionPane.QUESTION_MESSAGE );
+        algy = Integer.parseInt( nY );
+        // instanciação de um objeto da classe calculadora
+        Calculadora calc = new Calculadora();
+        JOptionPane.showMessageDialog(null, "somar: " +  calc.somar( algx, algy ) );
+               JOptionPane.showMessageDialog(null, "subtrair: " +   calc.subtrair( algx, algy ) );
+        JOptionPane.showMessageDialog(null, "multiplicar: " +  calc.multiplicar(
+algx, algy ) );
+               JOptionPane.showMessageDialog(null,  "dividir: "  +    calc.dividir( algx, algy ) );
+        System.exit( 0 );
+    }
+}
